@@ -1,6 +1,6 @@
 <?php
 
-class Crud_transaksi{
+class Crud_transaksis{
     private $db;
     
     function __construct($db){
