@@ -1,0 +1,151 @@
+.main-sidebar{
+	box-shadow: 0 2px 6px 0 rgba(0,0,0,0.2), 0 2px 6px 0 rgba(0,0,0,0.19);
+}
+
+.dataTable > tbody tr td{
+	vertical-align: middle !important;
+}
+
+.centerCol{
+	text-align: center;
+}
+
+.rightCol{
+	text-align: right;
+}
+
+.img-link:hover{
+	cursor: pointer;
+}
+
+.img-thumb{
+	margin: auto;
+	border-radius: 2px;
+	box-shadow: 0px 0.1px 1px #333;
+}
+
+.main-sidebar .user-panel{
+	padding: 10px 15px;
+}
+
+.main-sidebar .user-panel .image{
+	float: left !important;
+	display: inline-block;
+	margin-top: 3px;
+}
+
+.main-sidebar .user-panel .info{
+	float: left !important;
+	margin-left: 10px;
+}
+
+.small-label{
+	font-size: 9.5px !important;
+	margin-bottom: 0px!important;
+	color: #222;
+}
+
+.skin-blue-light .sidebar-menu>li:hover>a, .skin-blue-light .sidebar-menu>li.active>a{
+	color: #444;
+	background: #f2f2f2;
+	transition: all 0.2s cubic-bezier(10,20,30,40);
+	-webkit-transition: all 0.2s cubic-bezier(10,20,30,40);
+	-moz-transition: all 0.2s cubic-bezier(10,20,30,40);
+	-o-transition: all 0.2s cubic-bezier(10,20,30,40);
+	-ms-transition: all 0.2s cubic-bezier(10,20,30,40);
+}
+
+.skin-blue-light .sidebar-menu a:focus{
+	background: #f2f2f2 !important;
+}
+
+.skin-blue-light a, .skin-blue-light a:focus{
+	color: #444;
+	transition: all 0.2s cubic-bezier(10,20,30,40);
+	-webkit-transition: all 0.2s cubic-bezier(10,20,30,40);
+	-moz-transition: all 0.2s cubic-bezier(10,20,30,40);
+	-o-transition: all 0.2s cubic-bezier(10,20,30,40);
+	-ms-transition: all 0.2s cubic-bezier(10,20,30,40);
+}
+
+.sidebar-mini:not(.sidebar-mini-expand-feature).sidebar-collapse .sidebar-menu>li:hover>.treeview-menu{
+	z-index: -1;
+}
+
+.sidebar-mini:not(.sidebar-mini-expand-feature).sidebar-collapse .sidebar-menu>li:hover>a>span:not(.pull-right), 
+.sidebar-mini:not(.sidebar-mini-expand-feature).sidebar-collapse .sidebar-menu>li:hover>.treeview-menu{
+	width: 200px;
+}
+
+.content-header{
+	padding-top: 20px;
+}
+
+.btn{
+	margin: 0px !important;
+}
+
+div.dataTables_wrapper div.dataTables_length select{
+	width: auto;
+}
+
+.dataTables_length > label{
+	height: auto !important;
+	margin-bottom: 0px !important;
+}
+
+.dataTables_length > label > select.form-control{
+	height: auto !important;
+	margin-bottom: 0px !important;
+}
+
+
+.pagination{
+	margin: 0px !important;
+}
+
+.pagination>li>a, .pagination>li>span{
+	padding: 2px 8px !important;
+}
+
+.pagination>li:first-child>a, .pagination>li:first-child>span{
+	border-top-left-radius: 2px !important;
+	border-bottom-left-radius: 2px !important;
+}
+
+.pagination>li:last-child>a, .pagination>li:last-child>span{
+	border-top-right-radius: 2px !important;
+	border-bottom-right-radius: 2px !important;
+}
+
+.totLabel{
+	padding: 2px 15px !important;
+}
+
+.box .box-body .input-group, .box .box-footer .input-group{
+	margin-top: 2px !important;
+}
+
+.box-header>.box-tools{
+	position: static;
+}
+
+.dataGrid{
+	width: 100% !important;
+}
+
+@media(max-width: 640px){
+	.content-wrapper{
+		margin-top: 15px;
+	}
+
+	.main-sidebar, .left-side, .control-sidebar{
+		padding-top: 120px !important;
+	}
+
+	.navbar .navbar-nav>li>a{
+		padding-top: 22px !important;
+		padding-bottom: 18px !important;
+	}
+
+}
